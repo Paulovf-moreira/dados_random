@@ -1,6 +1,4 @@
 import 'dart:convert';
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:math';
@@ -38,7 +36,6 @@ class Album {
 void main() => runApp(const MyApp());
 
 class MyApp extends StatefulWidget {
-  // ignore: use_key_in_widget_constructors
   const MyApp({super.key});
 
   @override
