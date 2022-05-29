@@ -38,6 +38,7 @@ class Album {
 void main() => runApp(const MyApp());
 
 class MyApp extends StatefulWidget {
+  // ignore: use_key_in_widget_constructors
   const MyApp({super.key});
 
   @override
